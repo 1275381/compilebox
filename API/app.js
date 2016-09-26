@@ -10,13 +10,13 @@ var express = require('express');
 var arr = require('./compilers');
 var sandBox = require('./DockerSandbox');
 var app = express.createServer();
-var port=80;
+var port=8055;
 
 
 var ExpressBrute = require('express-brute');
 var store = new ExpressBrute.MemoryStore(); // stores state locally, don't use this in production
 var bruteforce = new ExpressBrute(store,{
-    freeRetries: 50,
+    freeRetries: 2,
     lifetime: 3600
 });
 
@@ -37,8 +37,8 @@ function random(size) {
     return require("crypto").randomBytes(size).toString('hex');
 }
 
-
-app.post('/compile',bruteforce.prevent,function(req, res) 
+app.post('/compile',function(req, res)
+//app.post('/compile',bruteforce.prevent,function(req, res)
 {
 
     var language = req.body.language;
