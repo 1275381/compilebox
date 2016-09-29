@@ -49,6 +49,7 @@ RUN apt-get install -y perl
 
 RUN apt-get install -y sudo
 RUN apt-get install -y bc
+RUN cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 
 RUN echo "mysql ALL = NOPASSWD: /usr/sbin/service mysql start" | cat >> /etc/sudoers
 

@@ -23,7 +23,7 @@ var bruteforce = new ExpressBrute(store,{
 app.use(express.static(__dirname));
 app.use(express.bodyParser());
 
-app.all('*', function(req, res, next) 
+app.all('*', function(req, res, next)
 {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
@@ -37,10 +37,8 @@ function random(size) {
     return require("crypto").randomBytes(size).toString('hex');
 }
 
-app.post('/compile',function(req, res)
 //app.post('/compile',bruteforce.prevent,function(req, res)
-{
-
+app.post('/compile',function(req, res){
     var language = req.body.language;
     var code = req.body.code;
     var stdin = req.body.stdin;
@@ -65,9 +63,9 @@ app.post('/compile',function(req, res)
 });
 
 
-app.get('/', function(req, res) 
+app.all('/', function(req, res)
 {
-    res.sendfile("./index.html");
+    res.sendfile("./x.html");
 });
 
 console.log("Listening at "+port)
