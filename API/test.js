@@ -44,6 +44,7 @@ app.all('/pull',function(req, res)
 {
     console.log(req.body);
     res.send("ok");
+    
 
 });
 
