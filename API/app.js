@@ -89,7 +89,16 @@ app.post('/compile2',function(req, res)
     });
 
 });
+app.all('/pull',function(req, res)
+//app.post('/compile',bruteforce.prevent,function(req, res)
+{
+    var exec = require('child_process').exec;
+    exec("docker pull "+config.imagename);
+    console.log(req.body);
+    res.send("ok");
 
+
+});
 app.all('/', function(req, res)
 {
     res.sendfile("./x.html");
