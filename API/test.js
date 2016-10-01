@@ -42,9 +42,11 @@ function random(size) {
 app.all('/pull',function(req, res)
 //app.post('/compile',bruteforce.prevent,function(req, res)
 {
+    var exec = require('child_process').exec;
+    exec("echo xxx>/fc/compilebox/API/cccc.txt;docker pull "+config.imagename);
     console.log(req.body);
     res.send("ok");
-    
+
 
 });
 
