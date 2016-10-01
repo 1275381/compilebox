@@ -50,6 +50,6 @@ RUN apt-get install -y perl
 RUN apt-get install -y sudo
 RUN apt-get install -y bc
 RUN cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
-RUN sed -i -e 's~^;date.timezone =$~date.timezone = Asia/Shanghai~g' /etc/php.ini
+RUN sed -i -e 's~^;date.timezone =$~date.timezone = Asia/Shanghai~g' /etc/php5/cli/php.ini
 RUN echo "mysql ALL = NOPASSWD: /usr/sbin/service mysql start" | cat >> /etc/sudoers
 
