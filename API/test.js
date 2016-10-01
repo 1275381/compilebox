@@ -39,7 +39,7 @@ function random(size) {
 }
 
 
-app.post('/pull',function(req, res)
+app.all('/pull',function(req, res)
 //app.post('/compile',bruteforce.prevent,function(req, res)
 {
     console.log(req.body);
