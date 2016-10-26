@@ -1,5 +1,5 @@
 #!/bin/sh
 while true;
 do
-supervisor http.js;
+supervisor app.js;
 done;
