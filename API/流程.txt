@@ -1,0 +1,17 @@
+/fc/compilebox/API/DockerTimeout.sh 20s -u mysql -e 'NODE_PATH=/usr/local/lib/node_modules' -i -t --cpu-shares 512  -v  "/fc/compilebox/API/temp/2c6bd9b9fbb8587c9683":/usercode index.alauda.cn/fcsystem/compilebox /usercode/script.sh php file.php
+
+
+
+
+复制Payload到一临时目录
+映射入容器中
+执行脚本
+
+
+
+docker run -it --rm  -v /fc/compilebox/API/temp/test:/usercode --entrypoint="/bin/bash"  fcdexec/php53  /usercode/script.sh php file.php
+
+
+script.sh
+出错，少了统计   bc
+centos和ubuntu系统都要手动按准
