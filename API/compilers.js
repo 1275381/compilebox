@@ -35,6 +35,8 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["php","file.php","","Php",""],// 16 php54
 			 ["php","file.php","","php",""],// 17 php56
 			 ["php","file.php","","Php",""],// 18 php7
+			 ["python","file.py","","Python",""],
+			 ["python","file.py","","Python",""],
 		  ];
 
 
@@ -58,4 +60,6 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/php54x"], //16
 						["fcdexec/php56x"], //17
 						["fcdexec/php7x"], //18
+						["fcdexec/python27"], //19
+						["fcdexec/python3x"], //20
 					  ];
