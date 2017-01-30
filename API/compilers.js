@@ -51,7 +51,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
+			      ["comp"], //10
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["index.alauda.cn/fcsystem/compilebox"],
