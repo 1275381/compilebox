@@ -31,7 +31,10 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["gcc ","file.m"," /usercode/a.out","Objective-C","\' -o /usercode/a.out -I/usr/include/GNUstep -L/usr/lib/GNUstep -lobjc -lgnustep-base -Wall -fconstant-string-class=NSConstantString\'"],
 			 ["/usercode/sql_runner.sh","file.sql","","MYSQL",""],
 			 ["perl","file.pl","","Perl",""],
-			 ["php","file.php","","Php",""],// 15
+			 ["php","file.php","","Php",""],// 15 php53
+			 ["php","file.php","","Php",""],// 16 php54
+			 ["php","file.php","","Php",""],// 17 php56
+			 ["php","file.php","","Php",""],// 18 php7
 		  ];
 
 
@@ -52,4 +55,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["fcdexec/php53x"], //15
+						["fcdexec/php54x"], //16
+						["fcdexec/php56x"], //17
+						["fcdexec/php7x"], //18
 					  ];
