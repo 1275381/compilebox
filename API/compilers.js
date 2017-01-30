@@ -41,21 +41,21 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 
 
 			exports.imageArray= [
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["comp"], //10
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
-			      ["index.alauda.cn/fcsystem/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["ifcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"], //10
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
+			      ["fcdexec/compilebox"],
 			      ["fcdexec/php53x"], //15
 						["fcdexec/php54x"], //16
 						["fcdexec/php56x"], //17
