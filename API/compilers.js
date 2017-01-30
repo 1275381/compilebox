@@ -33,7 +33,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["perl","file.pl","","Perl",""],
 			 ["php","file.php","","Php",""],// 15 php53
 			 ["php","file.php","","Php",""],// 16 php54
-			 ["php","file.php","","Php",""],// 17 php56
+			 ["php","file.php","","php",""],// 17 php56
 			 ["php","file.php","","Php",""],// 18 php7
 		  ];
 
