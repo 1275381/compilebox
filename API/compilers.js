@@ -35,8 +35,9 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["php","file.php","","Php",""],// 16 php54
 			 ["php","file.php","","php",""],// 17 php56
 			 ["php","file.php","","Php",""],// 18 php7
-			 ["python","file.py","","Python",""],
-			 ["python3","file.py","","Python",""],
+			 ["python","file.py","","Python",""],//19
+			 ["python3","file.py","","Python",""],//20
+			 ["swift","file.swift","","swift",""],
 		  ];
 
 
@@ -62,4 +63,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/php7x"], //18
 						["fcdexec/python27"], //19
 						["fcdexec/python27"], //20
+						["fcdexec/swiftx"], //20
 					  ];
