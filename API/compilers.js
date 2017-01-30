@@ -56,6 +56,6 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			      ["index.alauda.cn/fcsystem/compilebox"],
 			      ["fcdexec/php53x"], //15
 						["fcdexec/php54x"], //16
-						["fcdexec/php56"], //17
+						["fcdexec/php54x"], //17
 						["fcdexec/php7x"], //18
 					  ];
