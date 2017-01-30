@@ -73,7 +73,7 @@ app.post('/compile2',function(req, res)
 
     var folder= 'temp/' + random(10); //folder in which the temporary folder will be saved
     var path=__dirname+"/"; //current working path
-    var vm_name=config.imagename;//name of virtual machine that we want to execute
+    var vm_name=arr.imageArray[language];//name of virtual machine that we want to execute
     var timeout_value=20;//Timeout Value, In Seconds
 
     //details of this are present in DockerSandbox.js
