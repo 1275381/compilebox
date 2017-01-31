@@ -46,6 +46,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["rustc","file.r","/file","rust",""],// 27
 			 ["Rscript","file.r","","R",""],// 28
 			 ["runghc","file.r","","haskell",""],// 29
+			 ["rdmd","file.r","","D",""],// 30
 		  ];
 
 
@@ -80,4 +81,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/rust"],//27
 						["fcdexec/r"],//28
 						["fcdexec/haskell"],//29
+						["fcdexec/d"],//30
 					  ];
