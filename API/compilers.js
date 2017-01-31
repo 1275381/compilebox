@@ -43,7 +43,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["\'nasm -f elf64\'","file.asm","\'./usercode/runAsm.sh\'","nasm",""],//24
 			 ["lua","file.lua","","lua",""],// 25
 			 ["/usercode/runErl.sh","file.erl","","erlang",""],// 26
-			 ["rustc","file.r","/uesrcode/file","rust",""],// 26
+			 ["rustc","file.r","/file","rust",""],// 27
 		  ];
 
 
@@ -75,5 +75,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/nasm"],//24
 						["fcdexec/lua"],//25
 						["fcdexec/erlang"],//26
-						["fcdexec/rustx"],//26
+						["fcdexec/rustx"],//27
 					  ];
