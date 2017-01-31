@@ -44,6 +44,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["lua","file.lua","","lua",""],// 25
 			 ["/usercode/runErl.sh","file.erl","","erlang",""],// 26
 			 ["rustc","file.r","/file","rust",""],// 27
+			 ["Rscript","file.r","","R",""],// 28
 		  ];
 
 
@@ -76,4 +77,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/lua"],//25
 						["fcdexec/erlang"],//26
 						["fcdexec/rust"],//27
+						["fcdexec/r"],//28
 					  ];
