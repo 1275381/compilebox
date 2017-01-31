@@ -49,6 +49,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["rdmd","file.d","","D",""],// 30
 ["groovy","file.g","","groovy",""],// 31
 ["clisp","file.l","","lisp",""],// 32
+["ocaml","file.o","","ocaml",""],// 33
 		  ];
 
 
@@ -86,4 +87,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/d"],//30
 						["fcdexec/groovy"],//31
 						["fcdexec/lisp"],//32
+						["fcdexec/ocaml"],//33
 					  ];
