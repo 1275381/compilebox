@@ -47,6 +47,8 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["Rscript","file.r","","R",""],// 28
 			 ["runghc","file.r","","haskell",""],// 29
 			 ["rdmd","file.d","","D",""],// 30
+["groovy","file.g","","groovy",""],// 31
+
 		  ];
 
 
@@ -82,4 +84,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/r"],//28
 						["fcdexec/haskell"],//29
 						["fcdexec/d"],//30
+						["fcdexec/groovy"],//31
 					  ];
