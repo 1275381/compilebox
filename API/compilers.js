@@ -75,5 +75,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/nasm"],//24
 						["fcdexec/lua"],//25
 						["fcdexec/erlang"],//26
-						["fcdexec/rustx"],//27
+						["fcdexec/rust"],//27
 					  ];
