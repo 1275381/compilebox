@@ -50,6 +50,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 ["groovy","file.g","","groovy",""],// 31
 ["clisp","file.l","","lisp",""],// 32
 ["ocaml","file.o","","ocaml",""],// 33
+["coffee","file.c","","CoffeeScript",""],// 34
 		  ];
 
 
@@ -88,4 +89,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/groovy"],//31
 						["fcdexec/lisp"],//32
 						["fcdexec/ocaml"],//33
+						["fcdexec/coffee"],//34
 					  ];
