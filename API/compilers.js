@@ -52,7 +52,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 ["ocaml","file.o","","ocaml",""],// 33
 ["coffee","file.c","","CoffeeScript",""],// 34
 ["racket","file.r","","racket",""],// 35
-["\'nim c --verbosity:0\'","file.nim","","nim",""],// 36
+["/usercode/runNim.sh","file.nim","/file","nim",""],// 36
 		  ];
 
 
