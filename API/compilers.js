@@ -51,6 +51,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 ["clisp","file.l","","lisp",""],// 32
 ["ocaml","file.o","","ocaml",""],// 33
 ["coffee","file.c","","CoffeeScript",""],// 34
+["racket","file.r","","racket",""],// 35
 		  ];
 
 
@@ -90,4 +91,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/lisp"],//32
 						["fcdexec/ocaml"],//33
 						["fcdexec/coffee"],//34
+						["fcdexec/racket"],//35
 					  ];
