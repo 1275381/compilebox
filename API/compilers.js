@@ -63,5 +63,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/php7x"], //18
 						["fcdexec/python27"], //19
 						["fcdexec/python27"], //20
-						["fcdexec/swiftx"], //20
+						["fcdexec/swiftx"], //21
 					  ];
