@@ -38,7 +38,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["python","file.py","","Python",""],//19
 			 ["python3","file.py","","Python",""],//20
 			 ["swift","file.swift","","swift",""],
-			 ["\'fsharpc --nologo \'","file.fs","\'mono /usercode/file.exe\'","F#",""], //22
+			 ["\'fsharpc --nologo\'","file.fs","\'mono /usercode/file.exe\'","F#",""], //22
 		  ];
 
 
