@@ -30,7 +30,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["/bin/bash","file.sh"," ","Bash",""],//11
 			 ["gcc ","file.m"," /usercode/a.out","Objective-C","\' -o /usercode/a.out -I/usr/include/GNUstep -L/usr/lib/GNUstep -lobjc -lgnustep-base -Wall -fconstant-string-class=NSConstantString\'"],
 			 ["/usercode/sql_runner.sh","file.sql","","MYSQL",""],
-			 ["perl","file.pl","","Perl",""],
+			 ["perl","file.pl","","Perl",""],//14
 			 ["php","file.php","","Php",""],// 15 php53
 			 ["php","file.php","","Php",""],// 16 php54
 			 ["php","file.php","","php",""],// 17 php56
@@ -42,6 +42,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["javac","file.java","\'./usercode/javaRunner.sh\'","Java",""],//23
 			 ["\'nasm -f elf64\'","file.asm","\'./usercode/runAsm.sh\'","nasm",""],//24
 			 ["lua","file.lua","","lua",""],// 25
+			 ["escript","file.es","","erlang",""],// 26
 		  ];
 
 

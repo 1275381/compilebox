@@ -1,0 +1,19 @@
+#!/usr/bin/expect -f
+set timeout 60
+#spawn 用于执行命令
+
+
+spawn ssh ali_docker_ubuntu_runcode
+#exec sleep 2
+send "cd /fc/compilebox\n"
+#expect "password:"
+send "git pull\n"
+exec sleep 1
+send "exit\n"
+#interact 交给用户处理
+expect eof
+#spawn 用于执行命令
+
+
+
+exit
