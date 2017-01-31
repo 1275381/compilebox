@@ -42,7 +42,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["javac","file.java","\'./usercode/javaRunner.sh\'","Java",""],//23
 			 ["\'nasm -f elf64\'","file.asm","\'./usercode/runAsm.sh\'","nasm",""],//24
 			 ["lua","file.lua","","lua",""],// 25
-			 ["escript","file.es","","erlang",""],// 26
+			 ["/usercode/runErl.sh","file.erl","","erlang",""],// 26
 		  ];
 
 
@@ -73,4 +73,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/java18"],//23
 						["fcdexec/nasm"],//24
 						["fcdexec/lua"],//25
+						["fcdexec/erlang"],//26
 					  ];
