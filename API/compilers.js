@@ -46,7 +46,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["rustc","file.r","/file","rust",""],// 27
 			 ["Rscript","file.r","","R",""],// 28
 			 ["runghc","file.r","","haskell",""],// 29
-			 ["rdmd","file.r","","D",""],// 30
+			 ["rdmd","file.d","","D",""],// 30
 		  ];
 
 
