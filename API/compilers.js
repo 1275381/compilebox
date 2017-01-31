@@ -27,7 +27,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["javac","file.java","\'./usercode/javaRunner.sh\'","Java",""],
 			 ["\'vbnc -nologo -quiet\'","file.vb","\'mono /usercode/file.exe\'","VB.Net",""],
 			 ["\'gmcs /unsafe\'","file.cs","\'mono /usercode/file.exe\'","C#",""],
-			 ["/bin/bash","file.sh"," ","Bash",""],
+			 ["/bin/bash","file.sh"," ","Bash",""],//11
 			 ["gcc ","file.m"," /usercode/a.out","Objective-C","\' -o /usercode/a.out -I/usr/include/GNUstep -L/usr/lib/GNUstep -lobjc -lgnustep-base -Wall -fconstant-string-class=NSConstantString\'"],
 			 ["/usercode/sql_runner.sh","file.sql","","MYSQL",""],
 			 ["perl","file.pl","","Perl",""],
@@ -41,6 +41,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["\'fsharpc --nologo\'","file.fs","\'mono /file.exe\'","F#",""], //22
 			 ["javac","file.java","\'./usercode/javaRunner.sh\'","Java",""],//23
 			 ["\'nasm -f elf64\'","file.asm","\'./usercode/runAsm.sh\'","nasm",""],//24
+			 ["lua","file.lua","","lua",""],// 25
 		  ];
 
 
@@ -70,4 +71,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/compilebox"],//22
 						["fcdexec/java18"],//23
 						["fcdexec/nasm"],//24
+						["fcdexec/lua"],//25
 					  ];
