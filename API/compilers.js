@@ -52,6 +52,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 ["ocaml","file.o","","ocaml",""],// 33
 ["coffee","file.c","","CoffeeScript",""],// 34
 ["racket","file.r","","racket",""],// 35
+["\'nim c --verbosity:0\'","file.nim","","nim",""],// 36
 		  ];
 
 
@@ -92,4 +93,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/ocaml"],//33
 						["fcdexec/coffee"],//34
 						["fcdexec/racket"],//35
+						["fcdexec/nim"],//36
 					  ];
