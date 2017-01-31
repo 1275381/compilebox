@@ -40,6 +40,7 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 			 ["swift","file.swift","","swift",""],
 			 ["\'fsharpc --nologo\'","file.fs","\'mono /file.exe\'","F#",""], //22
 			 ["javac","file.java","\'./usercode/javaRunner.sh\'","Java",""],//23
+			 ["\'nasm -f elf64\'","file.asm","\'./usercode/runAsm.sh\'","nasm",""],//24
 		  ];
 
 
@@ -68,4 +69,5 @@ exports.compilerArray= [ ["python","file.py","","Python",""],
 						["fcdexec/swift"], //21
 						["fcdexec/compilebox"],//22
 						["fcdexec/java18"],//23
+						["fcdexec/nasm"],//24
 					  ];
