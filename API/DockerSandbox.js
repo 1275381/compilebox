@@ -81,6 +81,7 @@ DockerSandbox.prototype.prepare = function(success)
                 else
                 {
                     console.log(sandbox.langName+" file was saved!");
+                    console.log(sandbox.code+" file was saved!");
                     exec("chmod 777 \'"+sandbox.path+sandbox.folder+"/"+sandbox.file_name+"\'")
 
                     fs.writeFile(sandbox.path + sandbox.folder+"/inputFile", sandbox.stdin_data,function(err)
