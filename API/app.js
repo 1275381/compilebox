@@ -37,9 +37,28 @@ function random(size) {
     //returns a crypto-safe random
     return require("crypto").randomBytes(size).toString('hex');
 }
+function isContains(str, substr) {
+    return str.indexOf(substr) >= 0;
+}
 
+function isMyWeb(referer){
+    if(isContains(referer,"dooccn.com")) {
+        return true;
+    }
+    if(isContains(referer,"shucunwang.com")){
+        return true;
+    }
+    if(isContains(referer,"135995.com")){
+        return true;
+    }
+    return false;
+}
+var Copyright="\r\n\r\n官方网站:http://www.dooccn.com";
 //app.post('/compile',bruteforce.prevent,function(req, res)
 app.post('/compile',function(req, res){
+
+    ismyweb=isMyWeb(req.headers['referer']);
+
     var language = req.body.language;
     var code = req.body.code;
     var stdin = req.body.stdin;
@@ -53,19 +72,25 @@ app.post('/compile',function(req, res){
     var sandboxType = new sandBox(timeout_value,path,folder,vm_name,arr.compilerArray[language][0],arr.compilerArray[language][1],code,arr.compilerArray[language][2],arr.compilerArray[language][3],arr.compilerArray[language][4],stdin);
 
 
+
     //data will contain the output of the compiled/interpreted code
     //the result maybe normal program output, list of error messages or a Timeout error
     sandboxType.run(function(data,exec_time,err)
     {
+        if(ismyweb){
+            res.send({output:data, langid: language,code:code, errors:err, time:exec_time});
+        }else{
+            res.send({output:data+Copyright, langid: language,code:code, errors:err, time:exec_time});
+        }
         //console.log("Data: received: "+ data)
-    	res.send({output:data, langid: language,code:code, errors:err, time:exec_time});
+
     });
 
 });
 app.post('/compile2',function(req, res)
 //app.post('/compile',bruteforce.prevent,function(req, res)
 {
-
+    ismyweb=isMyWeb(req.headers['referer']);
     var language = req.body.language;
     var code = req.body.code;
     code=base64.decode(code);
@@ -84,8 +109,13 @@ app.post('/compile2',function(req, res)
     //the result maybe normal program output, list of error messages or a Timeout error
     sandboxType.run(function(data,exec_time,err)
     {
+        if(ismyweb){
+            res.send({output:data, langid: language,code:code, errors:err, time:exec_time});
+        }else{
+            res.send({output:data+Copyright, langid: language,code:code, errors:err, time:exec_time});
+        }
         //console.log("Data: received: "+ data)
-        res.send({output:data, langid: language,code:code, errors:err, time:exec_time});
+
     });
 
 });
